@@ -4,13 +4,9 @@ const categorySpan = document.querySelectorAll(".category span");
 
 
 const baseUrl ="https://newsapi.org/v2";
-const apiKey = "&apiKey=85e6c546c826468d82661e8b17bd9b1f";
+const apiKey = "&apiKey=XXXXXXXXXXXXXXXXXXXX";
 const backupImage = "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&q=80&w=2069&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
-/* const newsA = "https://newsapi.org/v2/top-headlines?country=in&apiKey=85e6c546c826468d82661e8b17bd9b1f";
-const newsB ="https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=85e6c546c826468d82661e8b17bd9b1f";
-const newsC="https://newsapi.org/v2/everything?q=crypto&sortBy=publishedAt&apiKey=85e6c546c826468d82661e8b17bd9b1f";
-const newsD ="https://newsapi.org/v2/everything?q=apple&from=2023-11-04&to=2023-11-04&sortBy=popularity&apiKey=85e6c546c826468d82661e8b17bd9b1f";
- */
+
 async function dataRequest(url){
 
     try{
